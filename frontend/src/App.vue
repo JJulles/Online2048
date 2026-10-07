@@ -4,7 +4,7 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <header>
+  <header class="bg-blue-600">
 
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
