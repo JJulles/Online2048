@@ -36,3 +36,11 @@ npm run dev
 ```sh
 npm run build
 ```
+
+## Stack frontend
+
+The frontend is based on the following technologies:
+
+- Vue.js 3.5.43
+- Vue-Router 5.3.1
+- Tailwindcss 4.3.3
