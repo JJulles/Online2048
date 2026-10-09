@@ -1,35 +1,25 @@
-@import 'base.css';
+@import "tailwindcss";
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
-}
+/* import Flowbite Vue styles */
+@import "flowbite-vue/index.css";
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
-}
+/* import Flowbite plugin */
+@plugin "flowbite/plugin";
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
-}
-
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+@theme {
+    --color-2 : #cfcfcf;
+    --color-4 : #9e9e9e;
+    --color-8 : #a89191;
+    --color-16 : #cf8fcf;
+    --color-32 : #a86aa6;
+    --color-64 : #9e75a9;
+    --color-128 : #cd9bff;
+    --color-256 : #ac6bff;
+    --color-512 : #8b31ff;
+    --color-1024 : #7103FF;
+    --color-2048 : #5900cd;
+    --color-4096 : #3e008f;
+    --color-8192 : #260059;
+    --color-16384 : #000459;
+    --color-32768 : #0f1244;
 }
