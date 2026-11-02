@@ -2,7 +2,7 @@
   <div class="border-b rounded-b-xl border-b-gray-600 backdrop-blur-sm opacity-90
   dark:bg-gray-800 dark:text-white">
     <div class="flex justify-between items-center mx-5 sm:mx-20 py-3">
-      <div >
+      <div>
         <RouterLink to="/" class="flex items-center space-x-4">
           <img src="/logo.svg" alt="" class="w-12" />
           <span>Accueil</span>
